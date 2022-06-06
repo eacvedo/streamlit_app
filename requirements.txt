@@ -1,5 +1,4 @@
-matplotlib==3.3.2
-streamlit==0.70.0
-numpy==1.19.2
-Keras==2.4.3
-tensorflow==2.5.0
+streamlit=1.9.0=pypi_0
+numpy=1.22.2=pypi_0
+keras=2.9.0=pypi_0
+tensorflow=2.9.1=pypi_0
