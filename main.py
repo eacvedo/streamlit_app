@@ -26,7 +26,7 @@ model, words = load_()
 #  Prediction
 ############################
 thresh = 0.5
-pred = pipeline_inference(review, words, model)
+pred = pipeline_inference(review, model)
 
 ## Prints the input review text
 st.header('MODEL INPUT')
