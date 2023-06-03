@@ -20,7 +20,7 @@ review = st.text_area('Enter the review', 'Write your own review ...', height=25
 ############################
 #  Load classifier 
 ############################
-model, words = load_()
+model = load_()
 
 ############################
 #  Prediction

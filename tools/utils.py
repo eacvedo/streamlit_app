@@ -2,11 +2,10 @@ import tensorflow as tf
 import numpy as np 
 import keras
 
-# Load Model and Word:
+# Load Model 
 def load_():
-    words = np.load('files/words.npy', allow_pickle=True)
     model = keras.models.load_model('models/BEST-first-emb-1hiddenGRU(128)-w-masking-reg-4')
-    return model, words
+    return model
 
 # Pipeline funtion to make inference 
 def pipeline_inference (review, model): 
